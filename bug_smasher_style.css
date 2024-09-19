@@ -1,0 +1,30 @@
+canvas {
+    border: 5px solid black;
+    display: block;
+    width: 640px;
+    height: 480px;
+    cursor: url('bug_smasher_cursor.png'), auto;
+}
+
+#resetScore,
+#resetSpeed {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#resetScore:hover,
+#resetSpeed:hover {
+    background-color: #45a049;
+}
+
+#score {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+}

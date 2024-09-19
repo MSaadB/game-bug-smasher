@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bug Smasher</title>
+        <link rel="stylesheet" type="text/css" href="bug_smasher_style.css">
+        <h1>Bug Smashing Game</h1>
+    </head>
+    <p>The game starts as soon as the page is loaded. Smash the bug!</p>
+    <p>The bug gets faster with each click on it.</p>
+    <p>
+    <body>
+        <canvas id="gameCanvas" width="640" height="480"></canvas>
+
+        <button id="resetScore" onclick="resetScore()">Reset Score</button>
+
+        <button id="resetSpeed" onclick="resetSpeed()">Reset Speed</button>
+        
+        <div id="score">Score: 0</div>
+        
+        <script src="bug_smasher.js" defer></script>
+    </body>
+    </p>
+</html>
